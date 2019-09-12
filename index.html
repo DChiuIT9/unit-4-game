@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystal Collector</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
 </head>
 <body>
     <h1>Crystal Collector</h1>
@@ -18,27 +19,25 @@
     </div>
     <div class="random_score">
         <div class="random">
-            <p id="random-text">Random Numer: 0</p>
+            <p id="random-text">Random Number: <b>0</b></p>
         </div>
         <div class="score">
-            <p id="score-text">Your total score is: 0</p>
+            <p id="score-text">Your total score is: <b>0</b></p>
         </div>
     </div>
     <div class="winslosses">
-            <p id="wins-text">Wins: 0</p>
-            <p id="losses-text">Losses: 0</p>
+        <p id="wins-text">Wins: <b>0</b></p>
+        <p id="losses-text">Losses: <b>0</b></p>
     </div>
     <div class="diamond">
-        <img src="assets/images/red.png">
-        <img src="assets/images/blue.png">
-        <img src="assets/images/yellow.png">
-        <img src="assets/images/green.png">
+        <img id="redpic" src="assets/images/red.png">
+        <img id="bluepic" src="assets/images/blue.png">
+        <img id="yellowpic" src="assets/images/yellow.png">
+        <img id="greenpic" src="assets/images/green.png">
     </div>
 
-    </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
     
-    
+    <script type="text/javascript" src="assets/javascript/game.js">
     </script>
     
 </body>
