@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    box-sizing: border-box;
+    width: 1024px;
+}
+
+.header {
+    box-sizing: border-box;
+    border: solid;
+    text-align: center;
+}
+
+.instructions {
+    margin-top: 10px;
+    border: solid;
+    padding: 10px;
+}
+
+.random_score {
+    margin-top: 10px;
+    border: solid;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.winslosses {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.diamond {
+    border: solid;
+    text-align: center;
+    clear: both;
+}
